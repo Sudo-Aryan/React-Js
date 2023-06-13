@@ -1,0 +1,9 @@
+.card-1 {
+    width: 18rem;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
