@@ -31,7 +31,7 @@ const App = () => {
               <Col md='8'>
                   <Routes>
                     <Route path='/' Component={home} exact/>
-                    <Route path='/all-courses' Component={AllCourse} />
+                    <Route path='/all-courses' Component={AllCourse} exact/>
                   </Routes>
               </Col>
             </Row>
